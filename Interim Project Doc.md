@@ -5,7 +5,7 @@
 ### 1. Introduction 
 (Overview, Problem Statement)
 
-Can music improve an individual's mood and overall mental health? If so, what music can someone listen to in order to counter certain mental consitions?
+Can music improve an individual's mood and overall mental health? If so, what music can someone listen to in order to counter certain mental conditions?
 
 We seek to analyse the results from a survey of respondents regarding listening habits and mental health conditions, and based on the results, suggest tracks for the user based on her condition.
 
