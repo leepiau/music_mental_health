@@ -16,3 +16,5 @@ Uploaded 3 files:
 Todo: 
 - look at Clinton's file
 - explore cloud database as suggested by Clarence
+
+Add line from local git bash
