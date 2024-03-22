@@ -17,4 +17,25 @@ Todo:
 - look at Clinton's file
 - explore cloud database as suggested by Clarence
 
-Add line from local git bash
+2024-03-22
+
+Discoveries:
+1. Create a sql view to select the top genre per condition
+%%sql
+CREATE OR REPLACE VIEW anxiety_music 
+AS
+	(
+	SELECT fav_genre, COUNT(*)
+	FROM survey
+	WHERE anxiety >= 7
+	GROUP BY fav_genre
+	ORDER BY COUNT(*) DESC
+	LIMIT 1
+    )
+
+2. Use the result to print 3 recommendations from Spotify
+%%sql result << 
+SELECT t.track_name, t.artist, t.album, t.genre, t.preview_url 
+FROM recommended_tracks t
+JOIN anxiety_music a
+ON a.fav_genre = t.genre
