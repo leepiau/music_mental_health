@@ -14,7 +14,7 @@ Uploaded 3 files:
     - send sql queries to db and assign results to a variable
   
 Todo: 
-- look at Clinton's file
+- study at Clinton's script
 - explore cloud database as suggested by Clarence
 
 2024-03-22
