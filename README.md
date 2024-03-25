@@ -40,8 +40,12 @@ FROM recommended_tracks t
 JOIN anxiety_music a
 ON a.fav_genre = t.genre
 
-240325
-Upload 3 latest files:
+2024-03-25
+
+1. Upload 3 latest files:
 1_csv_clean_2_db_lee.ipynb
 2_tracks_clean_2_db_lee.ipynb
 3_sql_query_2_db_psycopg2_lee.ipynb
+
+2. Created ElephantSQL acct and DB. Tested, works as expected. EOL in Jan 2025
+3. Explore how to suggest tracks by looking at frequency instead of fav_genre (use sql in python?)
