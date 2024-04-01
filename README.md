@@ -49,3 +49,7 @@ ON a.fav_genre = t.genre
 
 2. Created ElephantSQL acct and DB. Tested, works as expected. EOL in Jan 2025
 3. Explore how to suggest tracks by looking at frequency instead of fav_genre (use sql in python?)
+
+2024-04-01
+1. Removed old files
+2. Uploaded v2.0 files
